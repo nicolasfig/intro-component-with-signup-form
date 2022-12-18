@@ -1,0 +1,24 @@
+:root {
+  /* Sizes*/
+  --s-8: 0.5rem;
+  --s-16: 1rem;
+  --s-24: 1.5rem;
+  --s-32: 2rem;
+  --s-40: 2.5rem;
+  --s-48: 3rem;
+  --s-64: 4rem;
+  --s-80: 5rem;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 16px;
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
