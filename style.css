@@ -7,12 +7,15 @@
   /* Primary */
 
   --red: hsl(0, 100%, 74%);
+  --red-shadow: hsl(360, 65%, 64%);
   --green: hsl(154, 59%, 51%);
+  --dark-green: hsl(154, 59%, 40%);
   --white: hsl(0, 100%, 100%);
 
   /* Accent */
 
   --blue: hsl(248, 32%, 49%);
+  --blue-shadow: hsl(248, 32%, 45%);
 
   /* Neutral */
 
@@ -49,19 +52,73 @@ h1 {
 main {
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 100vh;
 }
+
 .info {
   width: 500px;
+  margin-right: 70px;
 }
+
 .info-text {
   color: var(--white);
 }
+
 .signup-form {
   width: 540px;
 }
+
+.trial-btn {
+  width: 540px;
+  margin-bottom: var(--s-24);
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  height: 58px;
+  border-radius: var(--s-8);
+  box-shadow: 1px 2px 0 1px var(--blue-shadow), 0 10px 0 1px var(--red-shadow);
+}
+
+.trial-bold {
+  font-weight: var(--w-semibold);
+}
+
 .info-form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px;
   background-color: var(--white);
+  border-radius: var(--s-8);
+  box-shadow: 0 10px 0 1px var(--red-shadow);
+}
+
+.info-form > input {
+  padding: var(--s-16) var(--s-24);
+  margin-bottom: var(--s-16);
+  border-radius: var(--s-8);
+  border: 1px solid var(--grayish-blue);
+}
+.submit-btn {
+  height: var(--s-48);
+  margin-bottom: var(--s-8);
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: var(--s-8);
+  box-shadow: 1px 2px 0 1px var(--dark-green);
+  border: none;
+}
+
+.terms {
+  color: var(--grayish-blue);
+  font-size: 12px;
+  text-align: center;
+}
+
+.terms-link {
+  text-decoration: none;
+  color: var(--red);
 }
 
 .attribution {
@@ -72,7 +129,9 @@ main {
   position: absolute;
   bottom: var(--s-8);
   width: 100%;
+  color: var(--grayish-blue);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: var(--blue);
 }
