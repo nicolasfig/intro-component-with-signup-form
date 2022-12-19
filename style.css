@@ -8,6 +8,7 @@
 
   --red: hsl(0, 100%, 74%);
   --green: hsl(154, 59%, 51%);
+  --white: hsl(0, 100%, 100%);
 
   /* Accent */
 
@@ -41,6 +42,26 @@ body {
   font-family: var(--poppins);
   background: url(./images/bg-intro-desktop.png);
   background-color: var(--red);
+}
+h1 {
+  color: var(--white);
+}
+main {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.info {
+  width: 500px;
+}
+.info-text {
+  color: var(--white);
+}
+.signup-form {
+  width: 540px;
+}
+.info-form {
+  background-color: var(--white);
 }
 
 .attribution {
