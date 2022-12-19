@@ -1,4 +1,31 @@
+@import url(normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 :root {
+  /* Colors */
+
+  /* Primary */
+
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+
+  /* Accent */
+
+  --blue: hsl(248, 32%, 49%);
+
+  /* Neutral */
+
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+  /* Fonts */
+
+  --poppins: "Poppins", sans-serif;
+
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-semibold: 600;
+  --w-bold: 700;
+
   /* Sizes*/
   --s-8: 0.5rem;
   --s-16: 1rem;
@@ -10,13 +37,17 @@
   --s-80: 5rem;
 }
 
+body {
+  font-family: var(--poppins);
+}
+
 .attribution {
   display: flex;
   justify-content: center;
   font-size: 11px;
   text-align: center;
   position: absolute;
-  bottom: 16px;
+  bottom: var(--s-8);
   width: 100%;
 }
 .attribution a {
