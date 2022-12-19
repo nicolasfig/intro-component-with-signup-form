@@ -7,7 +7,7 @@
   /* Primary */
 
   --red: hsl(0, 100%, 74%);
-  --red-shadow: hsl(360, 65%, 64%);
+  --red-shadow: hsla(360, 65%, 64%, 50%);
   --green: hsl(154, 59%, 51%);
   --dark-green: hsl(154, 59%, 40%);
   --white: hsl(0, 100%, 100%);
@@ -48,7 +48,9 @@ body {
 }
 h1 {
   color: var(--white);
+  font-size: var(--s-48);
 }
+
 main {
   display: flex;
   align-items: center;
@@ -63,6 +65,7 @@ main {
 
 .info-text {
   color: var(--white);
+  line-height: var(--s-24);
 }
 
 .signup-form {
@@ -101,13 +104,14 @@ main {
   border: 1px solid var(--grayish-blue);
 }
 .submit-btn {
+  border: none;
   height: var(--s-48);
   margin-bottom: var(--s-8);
   background-color: var(--green);
   color: var(--white);
+  text-transform: uppercase;
   border-radius: var(--s-8);
   box-shadow: 1px 2px 0 1px var(--dark-green);
-  border: none;
 }
 
 .terms {
