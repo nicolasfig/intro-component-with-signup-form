@@ -39,6 +39,8 @@
 
 body {
   font-family: var(--poppins);
+  background: url(./images/bg-intro-desktop.png);
+  background-color: var(--red);
 }
 
 .attribution {
