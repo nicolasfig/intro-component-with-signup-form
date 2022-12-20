@@ -16,6 +16,7 @@
   /* Accent */
 
   --blue: hsl(248, 32%, 49%);
+  --hover-blue: hsl(248, 32%, 59%);
   --blue-shadow: hsl(248, 32%, 45%);
 
   /* Neutral */
@@ -84,6 +85,12 @@ main {
   box-shadow: 1px 2px 0 1px var(--blue-shadow), 0 10px 0 1px var(--red-shadow);
 }
 
+.trial-btn:hover {
+  background-color: var(--hover-blue);
+  box-shadow: 1px 2px 0 1px var(--blue);
+  cursor: pointer;
+}
+
 .trial-bold {
   font-weight: var(--w-semibold);
 }
@@ -104,6 +111,7 @@ main {
   border-radius: var(--s-8);
   border: 1px solid var(--grayish-blue);
 }
+
 .submit-btn {
   border: none;
   height: var(--s-48);

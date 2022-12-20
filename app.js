@@ -8,3 +8,11 @@ const password = document.querySelector(".password");
 /* Getting buttons */
 const trailBtn = document.querySelector(".trial-btn");
 const submitBtn = document.querySelector(".submit-btn");
+
+const validation = () => {
+  console.log("Hello");
+};
+
+submitBtn.addEventListener("click", () => {
+  validation();
+});
