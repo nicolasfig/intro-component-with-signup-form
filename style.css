@@ -140,6 +140,12 @@ main {
   color: var(--red);
 }
 
+.error-msg {
+  margin: 0 0 16px 24px;
+  color: var(--red);
+  font-size: 12px;
+}
+
 .attribution {
   display: flex;
   justify-content: center;
