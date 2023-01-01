@@ -91,5 +91,5 @@ I'm getting better with javascript and DOM manipulation but I need to improve a 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/nicolasfig)
+- Frontend Mentor - [@nicolasfig](https://www.frontendmentor.io/profile/nicolasfig)
 - Github - [@nicolasfig](https://github.com/nicolasfig/)
