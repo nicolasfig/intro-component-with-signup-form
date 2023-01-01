@@ -166,3 +166,37 @@ main {
   text-decoration: none;
   color: var(--blue);
 }
+
+@media screen and (max-width: 800px) {
+  main {
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    font-size: var(--s-32);
+    font-weight: var(--w-semibold);
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .info {
+    width: 270px;
+    text-align: center;
+    margin: 0 0 var(--s-48);
+  }
+  .trial-btn {
+    width: 328px;
+    height: 90px;
+    line-height: var(--s-32);
+  }
+
+  .trial-btn .break::after {
+    content: "\a";
+    white-space: pre;
+  }
+
+  .signup-form {
+    width: 328px;
+  }
+}
