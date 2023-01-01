@@ -20,32 +20,44 @@ const submitBtn = document.querySelector(".submit-btn");
 const validation = () => {
   if (nameInput.value === "") {
     msgName.innerHTML = "Name cannot be empty";
-    nameInput.style.border = "1px solid var(--dark-red)";
+    nameInput.style.border = "2px solid var(--dark-red)";
+    nameInput.placeholder = "";
+    nameInput.style.backgroundImage =
+      "url(./images/circle-exclamation-solid.svg)";
   } else {
     msgName.innerHTML = "";
   }
   if (lastname.value === "") {
     msgLastName.innerHTML = "Last Name cannot be empty";
-    lastname.style.border = "1px solid var(--dark-red)";
+    lastname.style.border = "2px solid var(--dark-red)";
+    lastname.placeholder = "";
+    lastname.style.backgroundImage =
+      "url(./images/circle-exclamation-solid.svg)";
   } else {
     msgLastName.innerHTML = "";
   }
   if (email.value === "") {
     msgEmail.innerHTML = "Email cannot be empty";
-    email.style.border = "1px solid var(--dark-red)";
+    email.style.border = "2px solid var(--dark-red)";
+    email.placeholder = "";
+    email.style.backgroundImage = "url(./images/circle-exclamation-solid.svg)";
   } else {
     msgEmail.innerHTML = "";
   }
   if (!pattern.test(email.value)) {
     msgEmail.innerHTML = "Looks like this is not an email";
-    email.style.border = "1px solid var(--dark-red)";
+    email.style.border = "2px solid var(--dark-red)";
+    email.placeholder = "";
+    email.style.backgroundImage = "url(./images/circle-exclamation-solid.svg)";
   } else {
     msgEmail.innerHTML = "";
   }
   if (password.value === "") {
     msgPass.innerHTML = "Password cannot be empty";
-    password.style.border = "1px solid var(--dark-red)";
-    password.placeholder = "f06a";
+    password.style.border = "2px solid var(--dark-red)";
+    password.placeholder = "";
+    password.style.backgroundImage =
+      "url(./images/circle-exclamation-solid.svg)";
   } else {
     msgPass.innerHTML = "";
   }

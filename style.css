@@ -111,6 +111,10 @@ main {
   margin-bottom: var(--s-8);
   border-radius: var(--s-8);
   border: 1px solid var(--grayish-blue);
+  background-image: "";
+  background-size: var(--s-24) var(--s-24);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
 }
 
 .submit-btn {
