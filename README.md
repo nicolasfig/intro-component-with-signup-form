@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nicolasfig/intro-component-with-signup-form)
-- Live Site URL: [Add live site URL here](https://nicolasfig.github.io/intro-component-with-signup-form)
+- Solution URL: [Code](https://github.com/nicolasfig/intro-component-with-signup-form)
+- Live Site URL: [Live site](https://nicolasfig.github.io/intro-component-with-signup-form)
 
 ## My process
 
